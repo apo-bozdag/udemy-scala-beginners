@@ -1,0 +1,12 @@
+# gitignore scala
+#
+.bsp
+.idea
+.DS_Store
+.classpath
+/project
+/target
+.settings
+.settings.xml
+.vscode
+.vscodeignore
