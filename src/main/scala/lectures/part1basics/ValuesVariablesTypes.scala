@@ -2,7 +2,7 @@ package lectures.part1basics
 
 object ValuesVariablesTypes extends App {
 
-  val x: Int = 42
+  private val x: Int = 42
   println(x)
 
   // Vals are immutable
@@ -20,7 +20,7 @@ object ValuesVariablesTypes extends App {
   val aDouble: Double = 3.14
 
   // variables
-  var aVariable: Int = 4
+  private var aVariable: Int = 4
   aVariable = 5 // side effects
   println(aVariable)
 }
